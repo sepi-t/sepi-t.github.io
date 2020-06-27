@@ -35,3 +35,14 @@ a {
         }
 
    
+
+#photo1 {
+    float: left;
+    shape-image-threshold: initial;
+    padding: 8px;
+    width: 300px;
+    max-width: 100%;
+    height: auto,
+
+    
+}
