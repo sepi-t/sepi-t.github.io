@@ -16,6 +16,8 @@ ul {
     float: left;
     font-weight: bold;
     background-color: aquamarine;
+    flex: 1;
+    
 }
 a {
     display: block;
@@ -28,14 +30,23 @@ a {
 }
  ul li {
     border-right: 1px solid #000;
-    padding: 5px;
+    padding: 2px;
     }
     ul li:first-of-type{
         border-right: none;
         }
 
-   
-
+    @media all and (max-width: 687px) {  
+    
+            .top{  
+              flex-wrap: wrap;  
+            }  
+              
+            .top > li {  
+              flex-basis: 50%;  
+            }
+          }
+       
 #photo1 {
     float: left;
     shape-image-threshold: initial;
@@ -43,6 +54,24 @@ a {
     width: 300px;
     max-width: 100%;
     height: auto,
-
-    
+  
 }
+
+section {
+    border-bottom: 2.5rem;
+    padding-bottom: 400px;
+}
+ footer {
+     text-align: center;
+       
+     }
+     
+     #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
+
+
+
+  
