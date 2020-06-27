@@ -25,18 +25,20 @@ a {
 }
 #floatright {
     float: right;
-    padding-right: 15px;
+    padding-right: 20px;
     font-weight: bold;
 }
+
+
  ul li {
     border-right: 1px solid #000;
-    padding: 2px;
+    padding: 10px;
     }
     ul li:first-of-type{
         border-right: none;
         }
 
-    @media all and (max-width: 687px) {  
+    @media all and (max-width: 640px) {  
     
             .top{  
               flex-wrap: wrap;  
@@ -45,8 +47,12 @@ a {
             .top > li {  
               flex-basis: 50%;  
             }
+           #cl2 {
+               width: 100%
+           }
           }
        
+    
 #photo1 {
     float: left;
     shape-image-threshold: initial;
@@ -67,10 +73,11 @@ section {
      }
      
      #footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
       }
+
 
 
 
